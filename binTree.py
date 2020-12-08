@@ -34,17 +34,28 @@ class BinaryTree:
             return (max + 1)
 
 
+# bTree = BinaryTree()
+# bTree.rrenja = nyja(1)
+# bTree.rrenja.majt = nyja(2)
+# bTree.rrenja.djathte = nyja(3)
+# bTree.rrenja.majt.majt = nyja(4)
+# bTree.rrenja.djathte.majt = nyja(5)
+# bTree.rrenja.djathte.djathte = nyja(6)
+# bTree.rrenja.djathte.djathte.djathte = nyja(7)
+# bTree.rrenja.djathte.djathte.djathte.djathte = nyja(8)
+
+#binarytree 2
 bTree = BinaryTree()
-bTree.rrenja = nyja(1)
+bTree.rrenja =nyja(1)
 bTree.rrenja.majt = nyja(2)
 bTree.rrenja.djathte = nyja(3)
 bTree.rrenja.majt.majt = nyja(4)
-bTree.rrenja.djathte.majt = nyja(5)
-bTree.rrenja.djathte.djathte = nyja(6)
-bTree.rrenja.djathte.djathte.djathte = nyja(7)
-bTree.rrenja.djathte.djathte.djathte.djathte = nyja(8)
+bTree.rrenja.majt.djathte = nyja(5)
+bTree.rrenja.majt.majt.majt = nyja(8)
+bTree.rrenja.djathte.majt = nyja(6)
+bTree.rrenja.djathte.djathte = nyja(7)
 
-print(str(bTree.rrenja))
+# print(str(bTree.rrenja.djathte))
 
 # Display the maximum Lartesi of the given binary tree
 print("Lartesia Maksimale: " + str(bTree.gjejLartesine(bTree.rrenja)))
