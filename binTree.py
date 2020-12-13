@@ -58,4 +58,4 @@ bTree.rrenja.djathte.djathte = nyja(7)
 # print(str(bTree.rrenja.djathte))
 
 # Display the maximum Lartesi of the given binary tree
-print("Lartesia Maksimale: " + str(bTree.gjejLartesine(bTree.rrenja)))
+print("Lartesia Maksimale: {}" .format(bTree.gjejLartesine(bTree.rrenja)))
